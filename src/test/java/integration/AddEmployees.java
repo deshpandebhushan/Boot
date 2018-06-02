@@ -29,7 +29,7 @@ public class AddEmployees {
     @Before
     public void setUp(){
        //   mockMvc= MockMvcBuilders.webAppContextSetup(this.wac).build();
-          mockMvc= MockMvcBuilders.standaloneSetup(new com.sat.controller.EmployeeController()).build();
+          mockMvc= MockMvcBuilders.standaloneSetup(new com.bd.controller.EmployeeController()).build();
 
     }
 
